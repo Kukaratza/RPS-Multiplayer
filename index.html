@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RPS-Multiplayer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <!-- Jumbotron -->
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1>ROCK, PAPER, SCISSORS ONLINE</h1>
+        </div>
+    </div>
+
+    <!--Username form -->
+    <form>
+        <div class="form-row align-items-center">
+            <div class="col-sm-3 my-1 offset-4">
+                <label class="sr-only" for="inputUser">Username</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">Username</div>
+                    </div>
+                    <input type="text" class="form-control" id="inputUser" placeholder="">
+                </div>
+            </div>
+            <div class="col-auto my-1">
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+    <!-- Game -->
+    <div class="container">
+
+    </div>
+    <!-- Chat Box -->
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-firestore.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>
